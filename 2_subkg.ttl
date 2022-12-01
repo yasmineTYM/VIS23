@@ -6,7 +6,8 @@
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://dx.doi.org/10.1109/TVCG.2013.219> ns3:publicationDate "2013"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2013.219> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2013"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb2344 ;
             foaf:name "Ye Yuan"^^xsd:string ],
@@ -47,7 +48,8 @@
         [ a ns2:concept ;
             foaf:name "microenvironment researchers"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2014.2346416> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2014.2346416> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1013,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb11132,
@@ -107,7 +109,8 @@
             foaf:name "flow topics"^^xsd:string ] ;
     ns2:technique _:n4261a645d69448269f7460701a4b366cb1742 .
 
-<http://dx.doi.org/10.1109/TVCG.2014.2346912> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2014.2346912> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11288,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb12009,
@@ -151,7 +154,8 @@
         _:n4261a645d69448269f7460701a4b366cb152,
         _:n4261a645d69448269f7460701a4b366cb3233 .
 
-<http://dx.doi.org/10.1109/TVCG.2015.2467620> ns3:publicationDate "2015"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2015.2467620> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2015"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "Museum of Musical Instruments, Germany"^^xsd:string ] ;
@@ -178,7 +182,8 @@
             foaf:name "bavarian musicians encyclopedia"^^xsd:string ] ;
     ns2:task _:n4261a645d69448269f7460701a4b366cb331 .
 
-<http://dx.doi.org/10.1109/TVCG.2015.2467971> ns3:publicationDate "2015"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2015.2467971> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2015"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12784,
         [ a <https://makg.org/property/Author> ;
             foaf:name "Eric Sauda"^^xsd:string ],
@@ -234,7 +239,8 @@
     ns2:technique _:n4261a645d69448269f7460701a4b366cb331 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb74 .
 
-<http://dx.doi.org/10.1109/TVCG.2018.2864843> ns3:publicationDate "2018"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2018.2864843> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2018"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12731,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb21974 ;
@@ -292,7 +298,8 @@
         [ a ns2:concept ;
             foaf:name "confusing classes"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2018.2864844> ns3:publicationDate "2018"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2018.2864844> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2018"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb1488,
                 [ a <https://makg.org/property/Affiliation> ;
@@ -356,7 +363,8 @@
     ns2:task [ a ns2:concept ;
             foaf:name "initial research questions"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2018.2864905> ns3:publicationDate "2018"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2018.2864905> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2018"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11617,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb15556 ;
@@ -405,7 +413,8 @@
             foaf:name "structure text"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb366 .
 
-<http://dx.doi.org/10.1109/TVCG.2018.2865232> ns3:publicationDate "2018"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2018.2865232> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2018"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12963,
         _:n4261a645d69448269f7460701a4b366cb1565,
         _:n4261a645d69448269f7460701a4b366cb1566,
@@ -443,7 +452,8 @@
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb33,
         _:n4261a645d69448269f7460701a4b366cb4332 .
 
-<http://dx.doi.org/10.1109/TVCG.2019.2934266> ns3:publicationDate "2019"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2019.2934266> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2019"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb277,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb17962,
@@ -486,7 +496,8 @@
     ns2:visualization [ a ns2:concept ;
             foaf:name "multi-linked view"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2019.2934280> ns3:publicationDate "2019"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2019.2934280> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2019"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1825,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb3179 ;
@@ -552,7 +563,8 @@
     ns2:visualization [ a ns2:concept ;
             foaf:name "interpretable manner"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2019.2934289> ns3:publicationDate "2019"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2019.2934289> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2019"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb20,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb3201 ;
@@ -592,7 +604,8 @@
     ns2:visualization [ a ns2:concept ;
             foaf:name "temporal windows"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2019.2934540> ns3:publicationDate "2019"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2019.2934540> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2019"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb3341 ;
             foaf:name "Susannah Burrows"^^xsd:string ],
@@ -642,7 +655,8 @@
         _:n4261a645d69448269f7460701a4b366cb83 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb295 .
 
-<http://dx.doi.org/10.1109/TVCG.2019.2934655> ns3:publicationDate "2019"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2019.2934655> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2019"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "Southwest Electric & Telecom Engineering Institute, Shanghai, China"^^xsd:string ],
@@ -734,7 +748,8 @@
         _:n4261a645d69448269f7460701a4b366cb2563,
         _:n4261a645d69448269f7460701a4b366cb965 .
 
-<http://dx.doi.org/10.1109/TVCG.2019.2934667> ns3:publicationDate "2019"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2019.2934667> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2019"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb2347,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb3513 ;
@@ -787,7 +802,8 @@
         [ a ns2:concept ;
             foaf:name "tree metaphor"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2020.3028888> ns3:publicationDate "2020"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2020.3028888> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2020"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb3292,
         [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
@@ -853,7 +869,8 @@
             foaf:name "high-level inspection"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb83 .
 
-<http://dx.doi.org/10.1109/TVCG.2020.3028890> ns3:publicationDate "2020"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2020.3028890> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2020"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb3621,
         _:n4261a645d69448269f7460701a4b366cb3622 ;
     dcterms:title "An Examination of Grouping and Spatial Organization Tasks for High-Dimensional Data Exploration"^^xsd:string ;
@@ -883,7 +900,8 @@
         _:n4261a645d69448269f7460701a4b366cb375 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb37 .
 
-<http://dx.doi.org/10.1109/TVCG.2020.3028975> ns3:publicationDate "2020"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2020.3028975> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2020"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1873,
         [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
@@ -917,7 +935,8 @@
         [ a ns2:concept ;
             foaf:name "alignment results"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2020.3030361> ns3:publicationDate "2020"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2020.3030361> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2020"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb3092,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb3955 ;
@@ -957,7 +976,8 @@
         _:n4261a645d69448269f7460701a4b366cb295,
         _:n4261a645d69448269f7460701a4b366cb33 .
 
-<http://dx.doi.org/10.1109/TVCG.2020.3030365> ns3:publicationDate "2020"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2020.3030365> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2020"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb1827,
                 _:n4261a645d69448269f7460701a4b366cb27394,
@@ -992,7 +1012,8 @@
             foaf:name "influence cluster identification"^^xsd:string ] ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb14 .
 
-<http://dx.doi.org/10.1109/TVCG.2020.3030404> ns3:publicationDate "2020"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2020.3030404> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2020"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1140,
         [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
@@ -1052,7 +1073,8 @@
         [ a ns2:concept ;
             foaf:name "perceptual foundation"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2020.3030437> ns3:publicationDate "2020"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2020.3030437> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2020"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb12248 ;
             foaf:name "Michael Marschollek"^^xsd:string ],
@@ -1164,7 +1186,8 @@
     ns2:visualization [ a ns2:concept ;
             foaf:name "patient history"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2021.3114800> ns3:publicationDate "2021"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2021.3114800> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2021"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1564,
         _:n4261a645d69448269f7460701a4b366cb1710,
         _:n4261a645d69448269f7460701a4b366cb2423,
@@ -1233,7 +1256,8 @@
         [ a ns2:concept ;
             foaf:name "thematic landscape"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2021.3114820> ns3:publicationDate "2021"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2021.3114820> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2021"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb11756,
                 _:n4261a645d69448269f7460701a4b366cb15918,
@@ -1292,7 +1316,8 @@
         [ a ns2:concept ;
             foaf:name "document space"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2021.3114830> ns3:publicationDate "2021"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2021.3114830> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2021"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "School of Interactive Art + Technology, Simon Fraser University"^^xsd:string ],
@@ -1357,7 +1382,8 @@
         [ a ns2:concept ;
             foaf:name "interactive table"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/VAST.2014.7042490> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2014.7042490> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb4037 ;
             foaf:name "Yixian Zheng"^^xsd:string ],
@@ -1442,7 +1468,8 @@
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb14,
         _:n4261a645d69448269f7460701a4b366cb3585 .
 
-<http://dx.doi.org/10.1109/VAST.2015.7347631> ns3:publicationDate "2015"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2015.7347631> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2015"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb12783 ;
             foaf:name "Omar ElTayeby"^^xsd:string ],
@@ -1485,7 +1512,8 @@
         _:n4261a645d69448269f7460701a4b366cb285,
         _:n4261a645d69448269f7460701a4b366cb331 .
 
-<http://dx.doi.org/10.1109/VAST.2015.7347681> ns3:publicationDate "2015"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2015.7347681> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2015"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb7324 ;
             foaf:name "Ana Jofre"^^xsd:string ],
@@ -1511,7 +1539,8 @@
     ns2:technique _:n4261a645d69448269f7460701a4b366cb295 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb2419 .
 
-<http://dx.doi.org/10.1109/VAST.2016.7883517> ns3:publicationDate "2016"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2016.7883517> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2016"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11809,
         _:n4261a645d69448269f7460701a4b366cb1566,
         [ a <https://makg.org/property/Author> ;
@@ -1568,7 +1597,8 @@
         _:n4261a645d69448269f7460701a4b366cb812 ;
     ns2:technique _:n4261a645d69448269f7460701a4b366cb1206 .
 
-<http://dx.doi.org/10.1109/VAST.2017.8585658> ns3:publicationDate "2017"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2017.8585658> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2017"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12784,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb3341 ;
@@ -1594,7 +1624,8 @@
         _:n4261a645d69448269f7460701a4b366cb295,
         _:n4261a645d69448269f7460701a4b366cb74 .
 
-<http://dx.doi.org/10.1109/VAST47406.2019.8986917> ns3:publicationDate "2019"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST47406.2019.8986917> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2019"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb5581,
         _:n4261a645d69448269f7460701a4b366cb7485,
         _:n4261a645d69448269f7460701a4b366cb7486,
@@ -1650,7 +1681,8 @@
             foaf:name "argumentation mining"^^xsd:string ] ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb5307 .
 
-<http://dx.doi.org/10.1109/VAST47406.2019.8986922> ns3:publicationDate "2019"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST47406.2019.8986922> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2019"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb3336,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb642 ;
@@ -1689,7 +1721,8 @@
             foaf:name "high recall"^^xsd:string ] ;
     ns2:technique _:n4261a645d69448269f7460701a4b366cb2419 .
 
-<http://dx.doi.org/10.1109/VAST50239.2020.00007> ns3:publicationDate "2020"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST50239.2020.00007> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2020"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12731,
         _:n4261a645d69448269f7460701a4b366cb12959,
         [ a <https://makg.org/property/Author> ;
@@ -1733,7 +1766,8 @@
             foaf:name "model builder"^^xsd:string ] ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb331 .
 
-<http://dx.doi.org/10.1109/INFVIS.1998.729568> ns3:publicationDate "1998"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/INFVIS.1998.729568> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "1998"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             foaf:name "John L. Sibert"^^xsd:string ],
         [ a <https://makg.org/property/Author> ;
@@ -1780,7 +1814,8 @@
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb14,
         _:n4261a645d69448269f7460701a4b366cb75 .
 
-<http://dx.doi.org/10.1109/INFVIS.2004.43> ns3:publicationDate "2004"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/INFVIS.2004.43> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2004"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb20,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb17277,
@@ -1818,7 +1853,8 @@
     ns2:visualization [ a ns2:concept ;
             foaf:name "geometric technique"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2008.131> ns3:publicationDate "2008"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2008.131> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2008"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb17118,
                 _:n4261a645d69448269f7460701a4b366cb27427,
@@ -1868,7 +1904,8 @@
         _:n4261a645d69448269f7460701a4b366cb14,
         _:n4261a645d69448269f7460701a4b366cb366 .
 
-<http://dx.doi.org/10.1109/TVCG.2008.167> ns3:publicationDate "2008"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2008.167> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2008"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb17217 ;
             foaf:name "Paul Rosenthal"^^xsd:string ],
@@ -1940,7 +1977,8 @@
         [ a ns2:concept ;
             foaf:name "object simplification"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2009.176> ns3:publicationDate "2009"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2009.176> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2009"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb2307 ;
             foaf:name "Krishna Desai"^^xsd:string ],
@@ -1972,7 +2010,8 @@
     ns2:technique _:n4261a645d69448269f7460701a4b366cb33 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb20507 .
 
-<http://dx.doi.org/10.1109/TVCG.2011.246> ns3:publicationDate "2011"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2011.246> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2011"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb27419,
                 _:n4261a645d69448269f7460701a4b366cb27420 ;
@@ -2020,7 +2059,8 @@
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb33,
         _:n4261a645d69448269f7460701a4b366cb331 .
 
-<http://dx.doi.org/10.1109/TVCG.2013.133> ns3:publicationDate "2013"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2013.133> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2013"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb15164,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb15369,
@@ -2055,7 +2095,8 @@
     ns2:technique _:n4261a645d69448269f7460701a4b366cb4105 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb14 .
 
-<http://dx.doi.org/10.1109/TVCG.2014.2346449> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2014.2346449> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb18276,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb3955 ;
@@ -2093,7 +2134,8 @@
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb33,
         _:n4261a645d69448269f7460701a4b366cb331 .
 
-<http://dx.doi.org/10.1109/TVCG.2015.2468292> ns3:publicationDate "2015"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2015.2468292> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2015"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb11846 ;
             foaf:name "Karthik Ramani"^^xsd:string ],
@@ -2139,7 +2181,8 @@
             foaf:name "static poses"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb431 .
 
-<http://dx.doi.org/10.1109/TVCG.2016.2598447> ns3:publicationDate "2016"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2016.2598447> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2016"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb3955 ;
             foaf:name "Anshul Vikram Pandey"^^xsd:string ],
@@ -2164,7 +2207,8 @@
         _:n4261a645d69448269f7460701a4b366cb207 ;
     ns2:technique _:n4261a645d69448269f7460701a4b366cb2439 .
 
-<http://dx.doi.org/10.1109/TVCG.2016.2598469> ns3:publicationDate "2016"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2016.2598469> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2016"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11615,
         _:n4261a645d69448269f7460701a4b366cb11616,
         _:n4261a645d69448269f7460701a4b366cb11617,
@@ -2202,7 +2246,8 @@
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb11621,
         _:n4261a645d69448269f7460701a4b366cb14 .
 
-<http://dx.doi.org/10.1109/TVCG.2016.2598667> ns3:publicationDate "2016"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2016.2598667> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2016"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "Vanderbilt University"^^xsd:string ],
@@ -2250,7 +2295,8 @@
         _:n4261a645d69448269f7460701a4b366cb5479,
         _:n4261a645d69448269f7460701a4b366cb78 .
 
-<http://dx.doi.org/10.1109/TVCG.2017.2744184> ns3:publicationDate "2017"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2017.2744184> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2017"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "Microsoft Corporation"^^xsd:string ] ;
@@ -2281,7 +2327,8 @@
             foaf:name "appropriate designs"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb4082 .
 
-<http://dx.doi.org/10.1109/TVCG.2017.2745118> ns3:publicationDate "2017"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2017.2745118> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2017"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11615,
         _:n4261a645d69448269f7460701a4b366cb11616,
         _:n4261a645d69448269f7460701a4b366cb11617,
@@ -2337,7 +2384,8 @@
         _:n4261a645d69448269f7460701a4b366cb5663 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb5663 .
 
-<http://dx.doi.org/10.1109/TVCG.2017.2745258> ns3:publicationDate "2017"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2017.2745258> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2017"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12900,
         _:n4261a645d69448269f7460701a4b366cb20748,
         [ a <https://makg.org/property/Author> ;
@@ -2364,7 +2412,8 @@
         _:n4261a645d69448269f7460701a4b366cb37,
         _:n4261a645d69448269f7460701a4b366cb429 .
 
-<http://dx.doi.org/10.1109/TVCG.2018.2865041> ns3:publicationDate "2018"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2018.2865041> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2018"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "School of Software, Tsinghua National Laboratory for Information Science and Technology, Tsinghua University"^^xsd:string ],
@@ -2432,7 +2481,8 @@
         [ a ns2:concept ;
             foaf:name "high-level tactic"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2018.2865047> ns3:publicationDate "2018"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2018.2865047> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2018"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb27403,
                 _:n4261a645d69448269f7460701a4b366cb27404 ;
@@ -2463,7 +2513,8 @@
     ns2:technique _:n4261a645d69448269f7460701a4b366cb1307 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb1402 .
 
-<http://dx.doi.org/10.1109/TVCG.2020.3030411> ns3:publicationDate "2020"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2020.3030411> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2020"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1013,
         _:n4261a645d69448269f7460701a4b366cb5025,
         _:n4261a645d69448269f7460701a4b366cb6376,
@@ -2518,7 +2569,8 @@
         [ a ns2:concept ;
             foaf:name "individual object"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/VAST.2015.7347624> ns3:publicationDate "2015"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2015.7347624> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2015"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb27297,
                 _:n4261a645d69448269f7460701a4b366cb27298 ;
@@ -2560,7 +2612,8 @@
     ns2:technique _:n4261a645d69448269f7460701a4b366cb2419 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb437 .
 
-<http://dx.doi.org/10.1109/VAST.2017.8585498> ns3:publicationDate "2017"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2017.8585498> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2017"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb16193,
                 _:n4261a645d69448269f7460701a4b366cb17578,
@@ -2612,7 +2665,8 @@
         [ a ns2:concept ;
             foaf:name "knowledge-assisted va"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/VAST.2017.8585505> ns3:publicationDate "2017"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2017.8585505> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2017"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "Digital Humanities, New York University Abu Dhabi, United Arab Emirates"^^xsd:string ] ;
@@ -2647,7 +2701,8 @@
             foaf:name "straightforward task"^^xsd:string ] ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb295 .
 
-<http://dx.doi.org/10.1109/VAST.2017.8585638> ns3:publicationDate "2017"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2017.8585638> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2017"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1013,
         _:n4261a645d69448269f7460701a4b366cb11790,
         [ a <https://makg.org/property/Author> ;
@@ -2705,7 +2760,8 @@
         [ a ns2:concept ;
             foaf:name "simple trajectory"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/INFVIS.2003.1249008> ns3:publicationDate "2003"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/INFVIS.2003.1249008> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2003"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb20344 ;
             foaf:name "Nelson Wong"^^xsd:string ],
@@ -2741,7 +2797,8 @@
             foaf:name "subsequent development"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb705 .
 
-<http://dx.doi.org/10.1109/INFVIS.2003.1249014> ns3:publicationDate "2003"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/INFVIS.2003.1249014> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2003"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb21228,
         [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
@@ -2803,7 +2860,8 @@
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb14,
         _:n4261a645d69448269f7460701a4b366cb41 .
 
-<http://dx.doi.org/10.1109/TVCG.2009.112> ns3:publicationDate "2009"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2009.112> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2009"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1566,
         [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
@@ -2863,7 +2921,8 @@
         _:n4261a645d69448269f7460701a4b366cb270,
         _:n4261a645d69448269f7460701a4b366cb331 .
 
-<http://dx.doi.org/10.1109/TVCG.2010.170> ns3:publicationDate "2010"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2010.170> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2010"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "NYU Polytechnic Institute"^^xsd:string ] ;
@@ -2901,7 +2960,8 @@
         [ a ns2:concept ;
             foaf:name "specific representative feature points"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2010.179> ns3:publicationDate "2010"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2010.179> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2010"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12061,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb14663 ;
@@ -2935,7 +2995,8 @@
         _:n4261a645d69448269f7460701a4b366cb543,
         _:n4261a645d69448269f7460701a4b366cb89 .
 
-<http://dx.doi.org/10.1109/TVCG.2012.258> ns3:publicationDate "2012"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2012.258> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2012"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             foaf:name "Layne T. Watson"^^xsd:string ],
         [ a <https://makg.org/property/Author> ;
@@ -2981,7 +3042,8 @@
         _:n4261a645d69448269f7460701a4b366cb2226,
         _:n4261a645d69448269f7460701a4b366cb33 .
 
-<http://dx.doi.org/10.1109/TVCG.2013.226> ns3:publicationDate "2013"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2013.226> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2013"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "NYU CUSP"^^xsd:string ],
@@ -3044,7 +3106,8 @@
             foaf:name "clutter-free visualization"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb4528 .
 
-<http://dx.doi.org/10.1109/TVCG.2014.2346574> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2014.2346574> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb2432,
                 [ a <https://makg.org/property/Affiliation> ;
@@ -3082,7 +3145,8 @@
         _:n4261a645d69448269f7460701a4b366cb411,
         _:n4261a645d69448269f7460701a4b366cb543 .
 
-<http://dx.doi.org/10.1109/TVCG.2014.2346677> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2014.2346677> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb18295,
         [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
@@ -3130,7 +3194,8 @@
         _:n4261a645d69448269f7460701a4b366cb285,
         _:n4261a645d69448269f7460701a4b366cb295 .
 
-<http://dx.doi.org/10.1109/TVCG.2015.2467733> ns3:publicationDate "2015"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2015.2467733> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2015"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11615,
         _:n4261a645d69448269f7460701a4b366cb11616,
         _:n4261a645d69448269f7460701a4b366cb11617,
@@ -3156,7 +3221,8 @@
     ns2:task _:n4261a645d69448269f7460701a4b366cb5663,
         _:n4261a645d69448269f7460701a4b366cb584 .
 
-<http://dx.doi.org/10.1109/TVCG.2016.2598591> ns3:publicationDate "2016"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2016.2598591> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2016"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11445,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb27395,
@@ -3192,7 +3258,8 @@
         [ a ns2:concept ;
             foaf:name "drill-down interaction"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2017.2746018> ns3:publicationDate "2017"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2017.2746018> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2017"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb3091,
         _:n4261a645d69448269f7460701a4b366cb3092,
         [ a <https://makg.org/property/Author> ;
@@ -3230,7 +3297,8 @@
             foaf:name "keyword summary"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb207 .
 
-<http://dx.doi.org/10.1109/TVCG.2019.2934654> ns3:publicationDate "2019"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2019.2934654> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2019"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1140,
         _:n4261a645d69448269f7460701a4b366cb11445,
         _:n4261a645d69448269f7460701a4b366cb4213,
@@ -3278,7 +3346,8 @@
         [ a ns2:concept ;
             foaf:name "word-embedding projections"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/VAST.2014.7042496> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2014.7042496> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             foaf:name "Fei Wang"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb507,
@@ -3320,7 +3389,8 @@
             foaf:name "emotional profile"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb295 .
 
-<http://dx.doi.org/10.1109/VAST.2016.7883510> ns3:publicationDate "2016"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2016.7883510> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2016"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1013,
         _:n4261a645d69448269f7460701a4b366cb11790,
         [ a <https://makg.org/property/Author> ;
@@ -3375,7 +3445,8 @@
     ns2:visualization [ a ns2:concept ;
             foaf:name "map metaphor"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2006.142> ns3:publicationDate "2006"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2006.142> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2006"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb4553 ;
             foaf:name "Greg Smith"^^xsd:string ],
@@ -3411,7 +3482,8 @@
         _:n4261a645d69448269f7460701a4b366cb3748 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb14 .
 
-<http://dx.doi.org/10.1109/TVCG.2006.164> ns3:publicationDate "2006"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2006.164> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2006"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb15164,
         _:n4261a645d69448269f7460701a4b366cb3383 ;
     dcterms:title "Multi-variate, Time Varying, and Comparative Visualization with Contextual Cues"^^xsd:string ;
@@ -3428,7 +3500,8 @@
         [ a ns2:concept ;
             foaf:name "volume tree"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2006.165> ns3:publicationDate "2006"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2006.165> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2006"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             foaf:name "Natascha Sauber"^^xsd:string ],
         [ a <https://makg.org/property/Author> ;
@@ -3482,7 +3555,8 @@
         _:n4261a645d69448269f7460701a4b366cb260 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb5144 .
 
-<http://dx.doi.org/10.1109/TVCG.2008.138> ns3:publicationDate "2008"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2008.138> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2008"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "Instituto de Ciências Matemáticas e de Computação, Universidade de São Paulo, São Carlos, Brazil. e-mail: rminghim@icmc.usp.br"^^xsd:string ],
@@ -3515,7 +3589,8 @@
     ns2:task _:n4261a645d69448269f7460701a4b366cb816 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb33 .
 
-<http://dx.doi.org/10.1109/TVCG.2010.131> ns3:publicationDate "2010"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2010.131> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2010"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb15369 ;
             foaf:name "Teng-Yok Lee"^^xsd:string ],
@@ -3539,7 +3614,8 @@
             foaf:name "conditional entropy"^^xsd:string ] ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb251 .
 
-<http://dx.doi.org/10.1109/TVCG.2010.190> ns3:publicationDate "2010"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2010.190> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2010"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1752,
         _:n4261a645d69448269f7460701a4b366cb2637 ;
     dcterms:title "Result-Driven Exploration of Simulation Parameter Spaces for Visual Effects Design"^^xsd:string ;
@@ -3569,7 +3645,8 @@
         [ a ns2:concept ;
             foaf:name "goal-oriented manner"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2013.126> ns3:publicationDate "2013"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2013.126> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2013"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb11843,
                 _:n4261a645d69448269f7460701a4b366cb20344,
@@ -3634,7 +3711,8 @@
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb2319,
         _:n4261a645d69448269f7460701a4b366cb5139 .
 
-<http://dx.doi.org/10.1109/TVCG.2013.153> ns3:publicationDate "2013"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2013.153> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2013"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb4347,
         _:n4261a645d69448269f7460701a4b366cb541,
         _:n4261a645d69448269f7460701a4b366cb5558 ;
@@ -3670,7 +3748,8 @@
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb4020,
         _:n4261a645d69448269f7460701a4b366cb4082 .
 
-<http://dx.doi.org/10.1109/TVCG.2013.157> ns3:publicationDate "2013"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2013.157> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2013"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb4612 ;
     dcterms:title "Explainers: Expert Explorations with Crafted Projections"^^xsd:string ;
     ns1:cites <http://dx.doi.org/10.1109/TVCG.2011.220>,
@@ -3695,7 +3774,8 @@
         [ a ns2:concept ;
             foaf:name "projection algorithm"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2013.186> ns3:publicationDate "2013"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2013.186> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2013"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12729,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb27670,
@@ -3754,7 +3834,8 @@
     ns2:visualization [ a ns2:concept ;
             foaf:name "real-time tracking"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2013.228> ns3:publicationDate "2013"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2013.228> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2013"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1013,
         [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
@@ -3803,7 +3884,8 @@
             foaf:name "urban traffic"^^xsd:string ] ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb74 .
 
-<http://dx.doi.org/10.1109/TVCG.2014.2346321> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2014.2346321> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1752,
         [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
@@ -3848,7 +3930,8 @@
         _:n4261a645d69448269f7460701a4b366cb514 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb1206 .
 
-<http://dx.doi.org/10.1109/TVCG.2014.2346922> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2014.2346922> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb14914,
                 _:n4261a645d69448269f7460701a4b366cb22062,
@@ -3906,7 +3989,8 @@
         _:n4261a645d69448269f7460701a4b366cb4528,
         _:n4261a645d69448269f7460701a4b366cb615 .
 
-<http://dx.doi.org/10.1109/TVCG.2015.2467531> ns3:publicationDate "2015"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2015.2467531> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2015"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb20585 ;
             foaf:name "Johanna Fulda"^^xsd:string ],
@@ -3954,7 +4038,8 @@
     ns2:technique _:n4261a645d69448269f7460701a4b366cb1209 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb6138 .
 
-<http://dx.doi.org/10.1109/TVCG.2015.2467615> ns3:publicationDate "2015"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2015.2467615> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2015"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb3336,
         _:n4261a645d69448269f7460701a4b366cb4132,
         _:n4261a645d69448269f7460701a4b366cb7501,
@@ -3985,7 +4070,8 @@
     ns2:technique _:n4261a645d69448269f7460701a4b366cb2488,
         _:n4261a645d69448269f7460701a4b366cb331 .
 
-<http://dx.doi.org/10.1109/TVCG.2015.2467621> ns3:publicationDate "2015"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2015.2467621> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2015"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb18294,
         _:n4261a645d69448269f7460701a4b366cb2423,
         _:n4261a645d69448269f7460701a4b366cb4519,
@@ -4028,7 +4114,8 @@
             foaf:name "scientific paper"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb5676 .
 
-<http://dx.doi.org/10.1109/TVCG.2016.2598590> ns3:publicationDate "2016"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2016.2598590> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2016"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "Twitter, Inc."^^xsd:string ],
@@ -4074,7 +4161,8 @@
     ns2:visualization [ a ns2:concept ;
             foaf:name "frequent sentence patterns"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2017.2745083> ns3:publicationDate "2017"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2017.2745083> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2017"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11809,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb23741,
@@ -4127,7 +4215,8 @@
         _:n4261a645d69448269f7460701a4b366cb366,
         _:n4261a645d69448269f7460701a4b366cb651 .
 
-<http://dx.doi.org/10.1109/TVCG.2018.2864499> ns3:publicationDate "2018"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2018.2864499> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2018"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb2229,
                 _:n4261a645d69448269f7460701a4b366cb25281 ;
@@ -4176,7 +4265,8 @@
             foaf:name "feature discrimination"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb3233 .
 
-<http://dx.doi.org/10.1109/TVCG.2018.2865027> ns3:publicationDate "2018"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2018.2865027> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2018"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11381,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb642 ;
@@ -4241,7 +4331,8 @@
             foaf:name "es data"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb812 .
 
-<http://dx.doi.org/10.1109/TVCG.2019.2934629> ns3:publicationDate "2019"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2019.2934629> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2019"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb18202 ;
             foaf:name "Hanna Hauptmann"^^xsd:string ],
@@ -4283,7 +4374,8 @@
             foaf:name "steering mechanisms"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb83 .
 
-<http://dx.doi.org/10.1109/VAST.2016.7883507> ns3:publicationDate "2016"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2016.7883507> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2016"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb18294,
         _:n4261a645d69448269f7460701a4b366cb18295,
         _:n4261a645d69448269f7460701a4b366cb2423,
@@ -4339,7 +4431,8 @@
             foaf:name "impressive momentum"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb5479 .
 
-<http://dx.doi.org/10.1109/VAST.2018.8802509> ns3:publicationDate "2018"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2018.8802509> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2018"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12959,
         _:n4261a645d69448269f7460701a4b366cb12962,
         _:n4261a645d69448269f7460701a4b366cb24029,
@@ -4397,7 +4490,8 @@
         [ a ns2:concept ;
             foaf:name "layer mechanism"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/INFVIS.2005.1532152> ns3:publicationDate "2005"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/INFVIS.2005.1532152> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2005"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb25068 ;
             foaf:name "Manfred Hanfler"^^xsd:string ],
@@ -4424,7 +4518,8 @@
     ns2:technique [ a ns2:concept ;
             foaf:name "quantitative flow"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2008.116> ns3:publicationDate "2008"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2008.116> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2008"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "TU Kaiserslautern"^^xsd:string ],
@@ -4479,7 +4574,8 @@
             foaf:name "attribute cloud"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb366 .
 
-<http://dx.doi.org/10.1109/TVCG.2011.220> ns3:publicationDate "2011"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2011.220> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2011"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb27383 ;
             foaf:name "Paulo Joia"^^xsd:string ],
@@ -4509,7 +4605,8 @@
     ns2:task _:n4261a645d69448269f7460701a4b366cb331 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb74 .
 
-<http://dx.doi.org/10.1109/TVCG.2015.2467196> ns3:publicationDate "2015"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2015.2467196> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2015"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11288,
         _:n4261a645d69448269f7460701a4b366cb21087,
         [ a <https://makg.org/property/Author> ;
@@ -4567,7 +4664,8 @@
             foaf:name "ego-centric glyphs"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb3827 .
 
-<http://dx.doi.org/10.1109/TVCG.2015.2467622> ns3:publicationDate "2015"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2015.2467622> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2015"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "NYU"^^xsd:string ],
@@ -4591,7 +4689,8 @@
             foaf:name "separate discipline"^^xsd:string ] ;
     ns2:method _:n4261a645d69448269f7460701a4b366cb74 .
 
-<http://dx.doi.org/10.1109/TVCG.2015.2467991> ns3:publicationDate "2015"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2015.2467991> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2015"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12731,
         _:n4261a645d69448269f7460701a4b366cb17843,
         [ a <https://makg.org/property/Author> ;
@@ -4642,7 +4741,8 @@
         [ a ns2:concept ;
             foaf:name "media data"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2016.2598446> ns3:publicationDate "2016"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2016.2598446> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2016"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11381,
         _:n4261a645d69448269f7460701a4b366cb3336,
         _:n4261a645d69448269f7460701a4b366cb4132,
@@ -4677,7 +4777,8 @@
         [ a ns2:concept ;
             foaf:name "nonlinear magnification"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2017.2744478> ns3:publicationDate "2017"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2017.2744478> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2017"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11847,
         [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
@@ -4732,7 +4833,8 @@
         _:n4261a645d69448269f7460701a4b366cb5485 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb331 .
 
-<http://dx.doi.org/10.1109/TVCG.2018.2864769> ns3:publicationDate "2018"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2018.2864769> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2018"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1140,
         _:n4261a645d69448269f7460701a4b366cb11445,
         _:n4261a645d69448269f7460701a4b366cb4213,
@@ -4781,7 +4883,8 @@
             foaf:name "maximum improvement"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb331 .
 
-<http://dx.doi.org/10.1109/VAST.2007.4389004> ns3:publicationDate "2007"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2007.4389004> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2007"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb18202,
                 [ a <https://makg.org/property/Affiliation> ;
@@ -4810,7 +4913,8 @@
     ns2:method _:n4261a645d69448269f7460701a4b366cb5287 ;
     ns2:task _:n4261a645d69448269f7460701a4b366cb4735 .
 
-<http://dx.doi.org/10.1109/VAST.2008.4677364> ns3:publicationDate "2008"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2008.4677364> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2008"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb21197,
                 [ a <https://makg.org/property/Affiliation> ;
@@ -4846,7 +4950,8 @@
         [ a ns2:concept ;
             foaf:name "use clustering techniques"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/VAST.2009.5332629> ns3:publicationDate "2009"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2009.5332629> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2009"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "National Visualization and Analytics Center, Pacific Northwest National Laboratory, 902 Battelle Blvd, Richland, WA 99354, USA"^^xsd:string ] ;
@@ -4870,7 +4975,8 @@
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb260,
         _:n4261a645d69448269f7460701a4b366cb4684 .
 
-<http://dx.doi.org/10.1109/VAST.2009.5333437> ns3:publicationDate "2009"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2009.5333437> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2009"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb6433 ;
             foaf:name "Michelle L. Gregory"^^xsd:string ],
@@ -4911,7 +5017,8 @@
             foaf:name "story change"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb251 .
 
-<http://dx.doi.org/10.1109/VAST.2016.7883511> ns3:publicationDate "2016"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2016.7883511> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2016"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12406,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb5169 ;
@@ -4983,7 +5090,8 @@
     ns2:technique [ a ns2:concept ;
             foaf:name "stress tensor"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2006.156> ns3:publicationDate "2006"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2006.156> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2006"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "Dept. of Comput. Sci. & Appl. Math., Weizmann Inst. of Sci., Rehovot, Israel"^^xsd:string ],
@@ -5047,7 +5155,8 @@
             foaf:name "simple class"^^xsd:string ] ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb542 .
 
-<http://dx.doi.org/10.1109/TVCG.2009.140> ns3:publicationDate "2009"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2009.140> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2009"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb22413,
                 _:n4261a645d69448269f7460701a4b366cb2690 ;
@@ -5107,7 +5216,8 @@
         [ a ns2:concept ;
             foaf:name "cognitive limitation"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2010.154> ns3:publicationDate "2010"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2010.154> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2010"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1566,
         _:n4261a645d69448269f7460701a4b366cb21087,
         _:n4261a645d69448269f7460701a4b366cb24052,
@@ -5153,7 +5263,8 @@
             foaf:name "patient education"^^xsd:string ] ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb33 .
 
-<http://dx.doi.org/10.1109/TVCG.2011.232> ns3:publicationDate "2011"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2011.232> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2011"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb23916 ;
             foaf:name "Colin N. Dewey"^^xsd:string ],
@@ -5198,7 +5309,8 @@
         [ a ns2:concept ;
             foaf:name "sequence segmentation"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2012.253> ns3:publicationDate "2012"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2012.253> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2012"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11288,
         _:n4261a645d69448269f7460701a4b366cb1565,
         _:n4261a645d69448269f7460701a4b366cb1566,
@@ -5240,7 +5352,8 @@
         _:n4261a645d69448269f7460701a4b366cb3161 ;
     ns2:method _:n4261a645d69448269f7460701a4b366cb3032 .
 
-<http://dx.doi.org/10.1109/TVCG.2014.2346578> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2014.2346578> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb17817,
                 [ a <https://makg.org/property/Affiliation> ;
@@ -5294,7 +5407,8 @@
         _:n4261a645d69448269f7460701a4b366cb295,
         _:n4261a645d69448269f7460701a4b366cb84 .
 
-<http://dx.doi.org/10.1109/TVCG.2016.2598445> ns3:publicationDate "2016"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2016.2598445> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2016"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11847,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb20898 ;
@@ -5337,7 +5451,8 @@
         [ a ns2:concept ;
             foaf:name "non-interactive nature"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/VAST.2007.4388999> ns3:publicationDate "2007"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2007.4388999> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2007"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "Stony Brook University. email: ejnam@cs.sunysb.edu"^^xsd:string ] ;
@@ -5432,7 +5547,8 @@
             foaf:name "radial dendrogram"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb375 .
 
-<http://dx.doi.org/10.1109/VAST.2010.5652443> ns3:publicationDate "2010"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2010.5652443> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2010"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "School of Interactive, Computing, Georgia Institute of Technology"^^xsd:string ] ;
@@ -5473,7 +5589,8 @@
         _:n4261a645d69448269f7460701a4b366cb818 ;
     ns2:technique _:n4261a645d69448269f7460701a4b366cb37 .
 
-<http://dx.doi.org/10.1109/TVCG.2012.260> ns3:publicationDate "2012"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2012.260> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2012"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb24900 ;
             foaf:name "Patrick Fiaux"^^xsd:string ],
@@ -5502,7 +5619,8 @@
         [ a ns2:concept ;
             foaf:name "expressive interaction"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2014.2346431> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2014.2346431> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb10155 ;
             foaf:name "Stephen Ingram"^^xsd:string ],
@@ -5551,7 +5669,8 @@
         _:n4261a645d69448269f7460701a4b366cb345,
         _:n4261a645d69448269f7460701a4b366cb920 .
 
-<http://dx.doi.org/10.1109/TVCG.2017.2744938> ns3:publicationDate "2017"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2017.2744938> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2017"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12959,
         _:n4261a645d69448269f7460701a4b366cb12962,
         _:n4261a645d69448269f7460701a4b366cb24029,
@@ -5585,7 +5704,8 @@
             foaf:name "semi-supervised learning"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb410 .
 
-<http://dx.doi.org/10.1109/TVCG.2012.212> ns3:publicationDate "2012"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2012.212> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2012"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb2231,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb25224 ;
@@ -5617,7 +5737,8 @@
     ns2:visualization [ a ns2:concept ;
             foaf:name "hand-drawn illustration"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2014.2346594> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2014.2346594> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1710,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb12133,
@@ -5667,7 +5788,8 @@
             foaf:name "heavy overdraw"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb33 .
 
-<http://dx.doi.org/10.1109/TVCG.2017.2745080> ns3:publicationDate "2017"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2017.2745080> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2017"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11445,
         _:n4261a645d69448269f7460701a4b366cb4213,
         _:n4261a645d69448269f7460701a4b366cb7485,
@@ -5716,7 +5838,8 @@
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb295,
         _:n4261a645d69448269f7460701a4b366cb83 .
 
-<http://dx.doi.org/10.1109/VAST.2008.4677356> ns3:publicationDate "2008"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2008.4677356> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2008"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb6376,
         _:n4261a645d69448269f7460701a4b366cb6377 ;
     dcterms:title "Spatio-temporal aggregation for visual analysis of movements"^^xsd:string ;
@@ -5737,7 +5860,8 @@
         _:n4261a645d69448269f7460701a4b366cb22,
         _:n4261a645d69448269f7460701a4b366cb860 .
 
-<http://dx.doi.org/10.1109/VAST.2011.6102456> ns3:publicationDate "2011"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2011.6102456> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2011"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb23763 ;
             foaf:name "Alexander Savelyev"^^xsd:string ],
@@ -5824,7 +5948,8 @@
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb14,
         _:n4261a645d69448269f7460701a4b366cb3590 .
 
-<http://dx.doi.org/10.1109/INFVIS.2005.1532122> ns3:publicationDate "2005"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/INFVIS.2005.1532122> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2005"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb15028 ;
     dcterms:title "Baby names, visualization, and social data analysis"^^xsd:string ;
     ns1:cites <http://dx.doi.org/10.1109/INFVIS.2000.885098> ;
@@ -5846,7 +5971,8 @@
         [ a ns2:concept ;
             foaf:name "name voyager"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2009.171> ns3:publicationDate "2009"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2009.171> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2009"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb15028,
         _:n4261a645d69448269f7460701a4b366cb20997,
         [ a <https://makg.org/property/Author> ;
@@ -5869,7 +5995,8 @@
         [ a ns2:concept ;
             foaf:name "cloud-like displays"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2012.213> ns3:publicationDate "2012"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2012.213> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2012"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb4347,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb11394,
@@ -5919,7 +6046,8 @@
         _:n4261a645d69448269f7460701a4b366cb331,
         _:n4261a645d69448269f7460701a4b366cb543 .
 
-<http://dx.doi.org/10.1109/TVCG.2015.2467618> ns3:publicationDate "2015"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2015.2467618> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2015"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb23228,
         _:n4261a645d69448269f7460701a4b366cb4612 ;
     dcterms:title "Task-Driven Comparison of Topic Models"^^xsd:string ;
@@ -5953,7 +6081,8 @@
         [ a ns2:concept ;
             foaf:name "document similarity"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2016.2598831> ns3:publicationDate "2016"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2016.2598831> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2016"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12962,
         _:n4261a645d69448269f7460701a4b366cb12963,
         _:n4261a645d69448269f7460701a4b366cb24029,
@@ -5988,7 +6117,8 @@
     ns2:task _:n4261a645d69448269f7460701a4b366cb3619 ;
     ns2:technique _:n4261a645d69448269f7460701a4b366cb15 .
 
-<http://dx.doi.org/10.1109/TVCG.2017.2744199> ns3:publicationDate "2017"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2017.2744199> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2017"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb4612 ;
     dcterms:title "Considerations for Visualizing Comparison"^^xsd:string ;
     ns1:cites <http://dx.doi.org/10.1109/TVCG.2009.111>,
@@ -6018,7 +6148,8 @@
         [ a ns2:concept ;
             foaf:name "scaling challenges"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2014.2346919> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2014.2346919> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12406,
         _:n4261a645d69448269f7460701a4b366cb1564,
         [ a <https://makg.org/property/Author> ;
@@ -6066,7 +6197,8 @@
             foaf:name "coopetition distraction"^^xsd:string ] ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb283 .
 
-<http://dx.doi.org/10.1109/VAST.2014.7042494> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2014.7042494> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb19888,
         _:n4261a645d69448269f7460701a4b366cb19889,
         [ a <https://makg.org/property/Author> ;
@@ -6107,7 +6239,8 @@
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb14,
         _:n4261a645d69448269f7460701a4b366cb331 .
 
-<http://dx.doi.org/10.1109/TVCG.2011.179> ns3:publicationDate "2011"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2011.179> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2011"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb18202 ;
             foaf:name "Milos Krstajic"^^xsd:string ],
@@ -6145,7 +6278,8 @@
             foaf:name "comprehensible representations"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb4332 .
 
-<http://dx.doi.org/10.1109/TVCG.2013.196> ns3:publicationDate "2013"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2013.196> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2013"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12962,
         _:n4261a645d69448269f7460701a4b366cb1564,
         [ a <https://makg.org/property/Author> ;
@@ -6182,7 +6316,8 @@
     ns2:visualization [ a ns2:concept ;
             foaf:name "relationship structure"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/VAST.2010.5652931> ns3:publicationDate "2010"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2010.5652931> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2010"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "IBM Research - China"^^xsd:string ],
@@ -6224,7 +6359,8 @@
         _:n4261a645d69448269f7460701a4b366cb15 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb33 .
 
-<http://dx.doi.org/10.1109/VAST.2011.6102449> ns3:publicationDate "2011"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2011.6102449> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2011"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12900,
         _:n4261a645d69448269f7460701a4b366cb20748,
         [ a <https://makg.org/property/Author> ;
@@ -6260,7 +6396,8 @@
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb26062,
         _:n4261a645d69448269f7460701a4b366cb33 .
 
-<http://dx.doi.org/10.1109/VAST.2012.6400486> ns3:publicationDate "2012"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2012.6400486> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2012"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb26149 ;
             foaf:name "Carla E. Brodley"^^xsd:string ],
@@ -6304,7 +6441,8 @@
         _:n4261a645d69448269f7460701a4b366cb394,
         _:n4261a645d69448269f7460701a4b366cb83 .
 
-<http://dx.doi.org/10.1109/VAST.2012.6400557> ns3:publicationDate "2012"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2012.6400557> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2012"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb3448 ;
             foaf:name "Junghoon Chae"^^xsd:string ],
@@ -6367,7 +6505,8 @@
             foaf:name "abnormal topics"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb615 .
 
-<http://dx.doi.org/10.1109/TVCG.2009.111> ns3:publicationDate "2009"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2009.111> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2009"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb541 ;
     dcterms:title "A Nested Model for Visualization Design and Validation"^^xsd:string ;
     ns2:application _:n4261a645d69448269f7460701a4b366cb15,
@@ -6389,7 +6528,8 @@
     ns2:technique _:n4261a645d69448269f7460701a4b366cb1742,
         _:n4261a645d69448269f7460701a4b366cb920 .
 
-<http://dx.doi.org/10.1109/TVCG.2011.185> ns3:publicationDate "2011"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2011.185> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2011"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12061,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb14663 ;
@@ -6427,7 +6567,8 @@
         _:n4261a645d69448269f7460701a4b366cb8781 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb8781 .
 
-<http://dx.doi.org/10.1109/TVCG.2013.124> ns3:publicationDate "2013"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2013.124> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2013"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb4892,
         _:n4261a645d69448269f7460701a4b366cb541 ;
     dcterms:title "A Multi-Level Typology of Abstract Visualization Tasks"^^xsd:string ;
@@ -6462,7 +6603,8 @@
         _:n4261a645d69448269f7460701a4b366cb2612,
         _:n4261a645d69448269f7460701a4b366cb6317 .
 
-<http://dx.doi.org/10.1109/TVCG.2014.2346920> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2014.2346920> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12962,
         _:n4261a645d69448269f7460701a4b366cb1564,
         [ a <https://makg.org/property/Author> ;
@@ -6504,7 +6646,8 @@
     ns2:visualization [ a ns2:concept ;
             foaf:name "opinion flow visualization"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/VAST.2007.4389006> ns3:publicationDate "2007"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2007.4389006> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2007"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb12575,
                 [ a <https://makg.org/property/Affiliation> ;
@@ -6542,7 +6685,8 @@
         _:n4261a645d69448269f7460701a4b366cb3184,
         _:n4261a645d69448269f7460701a4b366cb5479 .
 
-<http://dx.doi.org/10.1109/TVCG.2008.166> ns3:publicationDate "2008"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2008.166> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2008"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb15028,
         [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
@@ -6564,7 +6708,8 @@
     ns2:visualization [ a ns2:concept ;
             foaf:name "music listening"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/TVCG.2013.221> ns3:publicationDate "2013"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2013.221> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2013"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb12406,
         _:n4261a645d69448269f7460701a4b366cb1564,
         _:n4261a645d69448269f7460701a4b366cb1566,
@@ -6605,7 +6750,8 @@
         _:n4261a645d69448269f7460701a4b366cb4275,
         _:n4261a645d69448269f7460701a4b366cb6138 .
 
-<http://dx.doi.org/10.1109/VAST.2009.5333443> ns3:publicationDate "2009"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2009.5333443> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2009"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11445,
         _:n4261a645d69448269f7460701a4b366cb15028,
         _:n4261a645d69448269f7460701a4b366cb20997 ;
@@ -6637,7 +6783,8 @@
         _:n4261a645d69448269f7460701a4b366cb5479,
         _:n4261a645d69448269f7460701a4b366cb89 .
 
-<http://dx.doi.org/10.1109/VAST.2014.7042493> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2014.7042493> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb23228,
         [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb25008 ;
@@ -6688,7 +6835,8 @@
         _:n4261a645d69448269f7460701a4b366cb331,
         _:n4261a645d69448269f7460701a4b366cb5184 .
 
-<http://dx.doi.org/10.1109/TVCG.2010.129> ns3:publicationDate "2010"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2010.129> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2010"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb987 ;
             foaf:name "Carey L. Williamson"^^xsd:string ],
@@ -6751,7 +6899,8 @@
             foaf:name "ongoing conversations"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb664 .
 
-<http://dx.doi.org/10.1109/INFVIS.2000.885098> ns3:publicationDate "2000"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/INFVIS.2000.885098> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2000"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb14207,
                 _:n4261a645d69448269f7460701a4b366cb27289 ;
@@ -6774,7 +6923,8 @@
     ns2:visualization [ a ns2:concept ;
             foaf:name "theme change"^^xsd:string ] .
 
-<http://dx.doi.org/10.1109/VAST.2011.6102461> ns3:publicationDate "2011"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2011.6102461> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2011"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb3358,
         _:n4261a645d69448269f7460701a4b366cb4833,
         _:n4261a645d69448269f7460701a4b366cb6328,
@@ -6813,7 +6963,8 @@
         _:n4261a645d69448269f7460701a4b366cb295,
         _:n4261a645d69448269f7460701a4b366cb7289 .
 
-<http://dx.doi.org/10.1109/TVCG.2014.2346433> ns3:publicationDate "2014"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2014.2346433> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2014"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb1565,
         [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
@@ -6858,7 +7009,8 @@
     ns2:technique _:n4261a645d69448269f7460701a4b366cb19577 ;
     ns2:visualization _:n4261a645d69448269f7460701a4b366cb283 .
 
-<http://dx.doi.org/10.1109/VAST.2012.6400485> ns3:publicationDate "2012"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/VAST.2012.6400485> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2012"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb650 ;
             foaf:name "Drew Skau"^^xsd:string ],
@@ -6895,7 +7047,8 @@
         _:n4261a645d69448269f7460701a4b366cb4559,
         _:n4261a645d69448269f7460701a4b366cb952 .
 
-<http://dx.doi.org/10.1109/TVCG.2013.212> ns3:publicationDate "2013"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2013.212> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2013"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf [ a <https://makg.org/property/Affiliation> ;
                     foaf:name "Department of Computer Science, Wayne State University, USA"^^xsd:string ],
@@ -6941,7 +7094,8 @@
             foaf:name "significant advancement"^^xsd:string ],
         _:n4261a645d69448269f7460701a4b366cb89 .
 
-<http://dx.doi.org/10.1109/TVCG.2013.162> ns3:publicationDate "2013"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2013.162> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2013"^^xsd:gYear ;
     dcterms:creator [ a <https://makg.org/property/Author> ;
             org:memberOf _:n4261a645d69448269f7460701a4b366cb650 ;
             foaf:name "Li Yu"^^xsd:string ],
@@ -6985,7 +7139,8 @@
         _:n4261a645d69448269f7460701a4b366cb33,
         _:n4261a645d69448269f7460701a4b366cb7289 .
 
-<http://dx.doi.org/10.1109/TVCG.2011.239> ns3:publicationDate "2011"^^xsd:gYear ;
+<http://dx.doi.org/10.1109/TVCG.2011.239> a <https://makg.org/property/Paper> ;
+    ns3:publicationDate "2011"^^xsd:gYear ;
     dcterms:creator _:n4261a645d69448269f7460701a4b366cb11288,
         _:n4261a645d69448269f7460701a4b366cb1565,
         _:n4261a645d69448269f7460701a4b366cb1566,
